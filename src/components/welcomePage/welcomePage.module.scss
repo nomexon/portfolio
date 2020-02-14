@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background: url(https://picsum.photos/1920/1080?image=600) no-repeat center/cover #181818;
+  background-blend-mode: overlay;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: crimson;
+}
+
+@media (max-height: 450px) {
+  .title {
+    font-size: 2.6rem;
+  }
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-height: 450px) {
+  .name {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.mySkills {
+  font-size: 2.6rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .mySkills {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-height: 500px) {
+  .mySkills {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+}
+
+.skills {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+  .skills {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-height: 500px) {
+  .skills {
+    margin-bottom: 10px;
+  }
+}
+
+.skills__item {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #241c1d;
+  border-radius: 10px;
+  font-size: 1.6rem;
+}
+.skills__item:hover {
+ margin-top: 5px;
+}
+@media (max-width: 500px) {
+  .skills__item {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-height: 500px) {
+  .skills__item {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.skills__item__title {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  .skills__item__title {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .skills__item__title {
+    display: none;
+  }
+}
+
+.skills__item > i {
+  font-size: 5.2rem;
+}
+
+@media (max-width: 500px) {
+  .skills__item > i {
+    margin-top: 10px;
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .skills__item > i {
+    margin-top: 10px;
+    font-size: 3.2rem;
+  }
+}
+
+.css {
+  color: aqua;
+}
+
+.js {
+  color: yellow;
+}
+
+.html5 {
+  color: orange;
+}
+
+.sass {
+  color: pink;
+}
+
+.react {
+  color: #00c3ff;
+}
+
+.github {
+  color: white;
+}
+
+.git {
+  color: #7be617;
+}
+
+.links {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.link__item {
+  margin: 0 10px;
+}
+
+.link__item i {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.link__item i:hover {
+  color: #ecf445;
+}
+
+
+
