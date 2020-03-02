@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "http://nomexon.github.io/portfolio",
   "dependencies": {
+    "@ant-design/icons": "^4.0.2",
+    "@ant-design/icons-svg": "^4.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.0.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

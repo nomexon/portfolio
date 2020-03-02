@@ -1,0 +1,36 @@
+.btn_marginRight {
+  margin-right: 5px;
+}
+
+.todo__items{
+  padding: 5px 5px;
+  margin: 5px 0 ;
+  width: 100%;
+
+}
+
+.todo__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.todo__text {
+  font-size: 1.5rem;
+  max-width: 450px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}
+.todo__item__btns {
+  display: flex;
+}
+.edit__input {
+  width: 300px;
+  margin: 10px 0
+}
+.editmode {
+  background-color: violet;
+}

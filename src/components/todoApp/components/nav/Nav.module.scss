@@ -1,0 +1,22 @@
+.btn_marginRight {
+  margin-right: 5px;
+}
+.nav {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+  padding: 10px 5px;
+  @media (max-width: 550px) {
+   flex-direction: column;
+  }
+}
+
+.search__wrap{
+  display: flex;
+  margin-right: 10px;
+}
+.searchInput {
+  margin-right: 10px;
+  width: 300px;
+}
