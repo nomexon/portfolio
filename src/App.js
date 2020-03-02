@@ -9,7 +9,7 @@ function NoMatch() {
   return (
     <div className={s.non}>
       <h3>404</h3>
-      <Link to="/">BACK</Link>
+      <Link to="/portfolio">BACK</Link>
     </div>
   );
 }
@@ -17,7 +17,7 @@ function InProgress() {
   return (
     <div className={s.non}>
       <h3>not available</h3>
-      <Link to="/">BACK</Link>
+      <Link to="/portfolio">BACK</Link>
     </div>
   );
 }
