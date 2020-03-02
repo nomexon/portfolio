@@ -15,7 +15,7 @@ function App() {
 
       <FooterContainer />
 
-      <Link to="/">BACK</Link>
+      <Link to="/portfolio">BACK</Link>
     </div>
   );
 }

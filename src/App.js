@@ -24,13 +24,13 @@ function InProgress() {
 function App() {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/portfolio">
         <WelcomePage />
       </Route>
-      <Route path="/todoredux">
+      <Route path="/portfolio/todoredux">
         <ToDoApp />
       </Route>
-      <Route path="/inprogress">
+      <Route path="/portfolio/inprogress">
         <InProgress />
       </Route>
       <Route path="*">
