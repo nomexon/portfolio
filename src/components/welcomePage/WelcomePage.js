@@ -18,12 +18,12 @@ let ini = [
   { title: "html5", iclass: `fab fa-html5 ${s.html5}` },
   { title: "css", iclass: `fab fa-css3-alt  ${s.css}` },
   { title: "github", iclass: `fab fa-github ${s.github}` },
-  { title: "git", iclass: `fab fa-git-square ${s.git}` }
+  { title: "git", iclass: `fab fa-git-square ${s.git}` },
 ];
 
 const WelcomePage = () => {
   const [skills] = useState(ini);
-  let skillsArr = skills.map(item => {
+  let skillsArr = skills.map((item) => {
     return skillItem(item.title, item.iclass);
   });
   return (
@@ -41,8 +41,9 @@ const WelcomePage = () => {
           <Link className={s.projectLink} to="/portfolio/todoredux">
             ToDoApp Redux
           </Link>
-          <Link className={s.projectLink} to="/portfolio/inprogress">
-            inProgress
+
+          <Link className={s.projectLink} to="/portfolio/form">
+            Form
           </Link>
         </div>
       </div>

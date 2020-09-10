@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectTasksOptions" suppressed-tasks="SCSS">
     <enabled-global>
-      <option value="PrettierHtml" />
-      <option value="Prettiercss" />
+      <option value="Prettier" />
       <option value="PrettierSass" />
+      <option value="Prettiercss" />
       <option value="PrettierJs" />
+      <option value="PrettierHtml" />
     </enabled-global>
   </component>
 </project>
