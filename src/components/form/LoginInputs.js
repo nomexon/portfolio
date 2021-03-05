@@ -5,7 +5,6 @@ import sending from "./sending";
 const LoginInputs = ({ email, setEmail, password, setPassword }) => {
   let defStyle = [s.formControl];
   let errStyle = [s.formControl + ` ` + s.error];
-  let sucStyle = [s.formControl + ` ` + s.success];
   let [errEmail, setErrEmail] = useState("");
   let [errPass, setErrPass] = useState("");
   return (

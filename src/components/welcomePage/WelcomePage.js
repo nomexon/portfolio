@@ -38,12 +38,15 @@ const WelcomePage = () => {
         </div>
         <div className={s.projects}>
           <h2 className={s.mySkills}>My projects</h2>
-          <Link className={s.projectLink} to="/portfolio/todoredux">
+          <Link className={s.projectLink} to="/todoredux">
             ToDoApp Redux
           </Link>
 
-          <Link className={s.projectLink} to="/portfolio/form">
+          <Link className={s.projectLink} to="/form">
             Form
+          </Link>
+          <Link className={s.projectLink} to="/form">
+            Form2222
           </Link>
         </div>
       </div>

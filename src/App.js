@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./App.module.scss";
+import s from "./app.module.scss";
 import { Link, Route, Switch } from "react-router-dom";
 import WelcomePage from "./components/welcomePage/WelcomePage";
 import ToDoApp from "./components/todoApp/ToDoApp";
@@ -10,7 +10,7 @@ function NoMatch() {
   return (
     <div className={s.non}>
       <h3>404</h3>
-      <Link to="/portfolio">BACK</Link>
+      <Link to="/">BACK</Link>
     </div>
   );
 }
@@ -18,14 +18,14 @@ function NoMatch() {
 function App() {
   return (
     <Switch>
-      <Route exact path="/portfolio">
+      <Route exact path="/">
         <WelcomePage />
       </Route>
-      <Route exact path="/portfolio/todoredux">
+      <Route exact path="/todoredux">
         <ToDoApp />
       </Route>
 
-      <Route exact path="/portfolio/form">
+      <Route exact path="/form">
         <Form />
       </Route>
       <Route path="*">

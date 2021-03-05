@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { auth } from "./fb";
 import s from "./form.module.scss";
 

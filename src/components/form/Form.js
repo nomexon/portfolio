@@ -49,7 +49,7 @@ const Form = () => {
         )}
       </div>
 
-      <Link to="/portfolio">BACK</Link>
+      <Link to="/">BACK</Link>
     </div>
   );
 };

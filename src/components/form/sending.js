@@ -12,7 +12,7 @@ export default async function sending(
     .signInWithEmailAndPassword(email, password)
     .catch(function (error) {
       let errorCode = error.code;
-      let errorMessage = error.message;
+
 
       if (errorCode === "auth/invalid-email") {
         setErrEmail("Invalid email");
