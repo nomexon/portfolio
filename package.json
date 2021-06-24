@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nomexon.github.io",
+  "homepage": "https://nomexon.github.io/portfolio/",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@ant-design/icons-svg": "^4.1.0",
