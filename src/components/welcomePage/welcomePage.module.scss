@@ -1,7 +1,8 @@
 .about {
   width: 100%;
-  min-height: 100vh;
-  background: url(https://picsum.photos/1920/1080?image=600) no-repeat center/cover #181818;
+  min-height: 95vh;
+  background: url(https://picsum.photos/1920/1080?image=600) no-repeat
+    center/cover #181818;
   background-blend-mode: overlay;
   position: relative;
   color: #fff;
@@ -25,8 +26,6 @@
   }
 }
 
-
-
 .name {
   text-transform: uppercase;
   font-size: 6rem;
@@ -40,9 +39,6 @@
     margin-bottom: 2rem;
   }
 }
-
-
-
 
 .mySkills {
   font-size: 2.6rem;
@@ -83,7 +79,6 @@
   flex-wrap: wrap;
 }
 
-
 .skills__item {
   margin: 10px;
   width: 100px;
@@ -105,15 +100,17 @@
 }
 
 .skills__item:hover {
- margin-top: 5px;
+  margin-top: 5px;
 }
 .projects {
   flex-basis: 100px;
   flex-grow: 1;
 
-  display: flex;flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .projectLink {
+  border: 0;
   background-color: #241c1d;
   border-radius: 10px;
   font-size: 1.6rem;
@@ -123,13 +120,10 @@
   color: white;
 }
 .projectLink:hover {
-  box-shadow: 0 1px 10px 0  rgba(255,255,255,0.75);;
+  box-shadow: 0 1px 10px 0 rgba(255, 255, 255, 0.75);
 }
 
-
-
 .skills__item__title {
-
   margin-bottom: 10px;
   @media (max-width: 500px) {
     display: none;
@@ -196,6 +190,3 @@
 .link__item i:hover {
   color: #ecf445;
 }
-
-
-

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import s from "./welcomePage.module.scss";
-import { Link } from "react-router-dom";
 
 const skillItem = (title, iclass) => {
   return (
@@ -23,6 +22,7 @@ let ini = [
 
 const WelcomePage = () => {
   const [skills] = useState(ini);
+
   let skillsArr = skills.map((item) => {
     return skillItem(item.title, item.iclass);
   });
@@ -36,21 +36,8 @@ const WelcomePage = () => {
           <h2 className={s.mySkills}>My skills</h2>
           <div className={s.skills__items}>{skillsArr}</div>
         </div>
-        <div className={s.projects}>
-          <h2 className={s.mySkills}>My projects</h2>
-          <Link className={s.projectLink} to="/todoredux">
-            ToDoApp Redux
-          </Link>
-
-          <Link className={s.projectLink} to="/form">
-            Form
-          </Link>
-          <Link className={s.projectLink} to="/form">
-            Form2222
-          </Link>
-        </div>
       </div>
-
+      <h2 className={s.mySkills}>My contacts</h2>
       <ul className={s.links}>
         <li className={s.link__item}>
           <a href="skype:live:ekiscode?chat">

@@ -1,0 +1,19 @@
+.aboutProject {
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  cursor: pointer;
+}
+.aboutProjectClose {
+  visibility: hidden;
+  height: 0px;
+
+  opacity: 0;
+}
+.aboutProjectOpen {
+  visibility: visible;
+  transition-duration: 2s;
+  opacity: 1;
+}

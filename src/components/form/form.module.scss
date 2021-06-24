@@ -17,6 +17,9 @@
   width: 400px;
   max-width: 100%;
   overflow: hidden;
+  @media (max-width: 450px) {
+    width: 350px;
+  }
 }
 
 .formContainer {
@@ -28,6 +31,9 @@
   justify-content: center;
   flex-direction: column;
   padding: 20px;
+  @media (max-width: 450px) {
+    padding: 10px;
+  }
 }
 
 .formControl {

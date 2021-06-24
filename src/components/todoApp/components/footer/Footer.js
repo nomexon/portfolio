@@ -13,13 +13,13 @@ const Footer = ({ value, changeValue, addTask }) => {
         onChange={changeValue}
         value={value}
         onKeyDown={e => {
-          if (e.key === "Enter") {
+          if (e.key === "Enter" && value.length > 0) {
             addTask();
           }
         }}
       />
 
-      <Button type="primary" onClick={addTask}>
+      <Button type="primary" onClick={()=>{if(value.length > 0){addTask()}}}>
         add task
       </Button>
     </footer>

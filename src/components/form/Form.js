@@ -1,11 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
 import s from "./form.module.scss";
 
 import { auth } from "./fb";
 import Exit from "./Exit";
 import LoginInputs from "./LoginInputs";
+import AboutProject from "../aboutProject/AboutProject";
 
+const descriptToDo = [
+  "Форма входа на основе стороннего API от firebase",
+  "Валидация на клиенте, а также обработка ответа от сервера",
+  "Работа с асинхронными запросами",
+  "ЛОГИН И ПАРОЛЬ УКАЗАНЫ В ФОРМЕ",
+];
+const title = "Описание проекта Form:";
 const Form = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -29,11 +37,12 @@ const Form = () => {
   }, []);
 
   return (
-    <div className={s.container}>
+    <section className={s.container}>
+      <AboutProject discr={descriptToDo} title={title}></AboutProject>
       <div className={s.formContainer}>
         <div className={s.header}>
-          <h3>Login: demo@demo.com</h3>
-          <h3>Pass: 1demo1</h3>
+          {userName === "Гость" ? <h3>Login: demo@demo.com</h3> : ""}
+          {userName === "Гость" ? <h3>Pass: 1demo1</h3> : ""}
           <h3>User: {userName}</h3>
         </div>
 
@@ -48,9 +57,7 @@ const Form = () => {
           />
         )}
       </div>
-
-      <Link to="/">BACK</Link>
-    </div>
+    </section>
   );
 };
 
